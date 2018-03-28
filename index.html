@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CU WASTE MANAGEMENT</title>
+</head>
+<body>
+<p align="middle" ><img src="images/cu-logo.png" style="width: 100px; height: 100px"></p>
+
+<h3 align="middle" style="color: #048146">Cu waste management</h3>
+
+<div id="map" style="width:100%;height:766px"></div>
+
+<script>
+
+
+    function myMap() {
+
+        let mapOptions = {
+            center: new google.maps.LatLng(6.671310, 3.158175),
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.HYBRID
+        };
+        let map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        //All the markers
+        let marker =  new google.maps.Marker({
+            position :new google.maps.LatLng(6.671310, 3.158175),
+            icon : 'images/sgreen-bin.png',
+            map : map
+        });
+        let bin_mary_hall=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.67178, 3.154541),
+            icon : 'images/syellow-bin.png',
+            map : map,
+
+        });
+        let bin_paul_hall=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.670576, 3.15401),
+            icon : 'images/sred-bin.png',
+            map : map
+        });
+        let bin_joseph_hall=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.670576,
+                3.152991),
+            icon : 'images/syellow-bin.png',
+            map : map
+        });
+
+
+        let bin_daniel_hall=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.671812,
+                3.152626),
+            icon : 'images/sred-bin.png',
+            map : map
+        });
+
+        let bin_cst_bookstore=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.673516,
+                3.159015),
+            icon : 'images/syellow-bin.png',
+            map : map
+        });
+        let bin_center_for_learning_resource=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.673516,
+                3.159015),
+            icon : 'images/sred-bin.png',
+            map : map
+        });
+        let bin_lydia_hall=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.671961,
+                3.156016),
+            icon : 'images/syellow-bin.png',
+            map : map
+        });
+        let bin_guest_house=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.671666,
+                3.162979),
+            icon : 'images/sgreen-bin.png',
+            map : map
+        });
+        let bin_medical_center=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.668149,
+                3.155404),
+            icon : 'images/sred-bin.png',
+            map : map
+        });
+        let bin_cafeteria_2=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.672561,
+                3.162142),
+            icon : 'images/sgreen-bin.png',
+            map : map
+        });
+        let bin_post_graduate=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.667627,
+                3.156037),
+            icon : 'images/sgreen-bin.png',
+            map : map
+        });
+        let bin_swimming_pool=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.674927,
+                3.162078),
+            icon : 'images/sred-bin.png',
+            map : map
+        });
+        let bin_ceds=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.671357,
+                3.161262),
+            icon : 'images/sgreen-bin.png',
+            map : map
+        });
+        let bin_aldc=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.672508,
+                3.1630332),
+            icon : 'images/sgreen-bin.png',
+            map : map
+        });
+        let bin_civil_engineering=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.675253,
+                3.162727),
+            icon : 'images/sgreen-bin.png',
+            map : map
+        });
+        let bin_deborah_hall=  new google.maps.Marker({
+            position :new google.maps.LatLng(6.671141,
+                3.15585),
+            icon : 'images/sgreen-bin.png',
+            map : map
+        });
+    }
+
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARSkqQ-Ho_6gPnjkyl2-iwJ7Z6yoh14_E&callback=myMap"></script>
+
+
+
+</body>
+
+</html>
